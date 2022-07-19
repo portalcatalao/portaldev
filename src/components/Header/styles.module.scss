@@ -1,0 +1,44 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 7.5rem;
+
+  img {
+    height: 2.5rem;
+    width: 5.25rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    gap: 3rem;
+
+    a {
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--white);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--pink-400);
+      }
+    }
+  }
+  button {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+
+    color: var(--white);
+    display: none;
+
+    opacity: 0;
+  }
+}

@@ -1,0 +1,93 @@
+.container {
+  background: var(--white);
+  padding-bottom: 6.5rem;
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  svg {
+    display: block;
+  }
+}
+
+.historyCompany {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  gap: 2.5rem;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: var(--purple-700);
+  padding-bottom: 3rem;
+  padding-top: 6.375rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.cardBody {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  color: var(--gray-700);
+}
+
+.cardFooter {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--pink-400);
+}
+
+.item p {
+  color: var(--gray-700);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+
+.historyCompany img {
+  width: 36rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .historyCompany {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .historyCompany {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .historyCompany img {
+    width: 19rem;
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
