@@ -21,7 +21,7 @@
 .cardBody {
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 2.5rem;
 }
 
 .card button[type="submit"] {
@@ -42,4 +42,14 @@
 
 .card button[type="submit"]:hover {
   background: var(--purple-300);
+}
+
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+  .bannerContainer {
+    margin: 2rem 0;
+
+    img {
+      display: none;
+    }
+  }
 }

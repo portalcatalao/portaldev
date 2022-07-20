@@ -6,6 +6,8 @@
   gap: 3rem;
 
   justify-content: space-between;
+
+  padding: 2rem 0;
 }
 
 .header {
@@ -22,25 +24,25 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
-}
 
-.cardHeader {
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 3rem;
+  span {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
 
-  color: #f1f1f1;
-}
+    color: #f1f1f1;
+  }
 
-.cardBody {
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 2.5rem;
-  color: var(--white);
+  p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    color: var(--white);
 
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
 }
 
 .methods {
@@ -65,17 +67,17 @@
   align-items: center;
   gap: 0.5rem;
   color: var(--lime-400);
-}
 
-.item p {
-  color: var(--white);
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 2.5rem;
-}
+  p {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
 
-.tools svg {
-  height: 1rem;
+  svg {
+    height: 1rem;
+  }
 }
 
 .frameworks {
@@ -86,148 +88,148 @@
   justify-content: center;
 
   position: relative;
-}
 
-.frameworks .tech {
-  max-width: 42rem;
-  max-height: 42rem;
+  img {
+    max-width: 42rem;
+    max-height: 42rem;
 
-  padding: 0 4.875rem;
+    padding: 0 4.875rem;
 
-  position: absolute;
-}
+    position: absolute;
+  }
 
-.frameworks span {
-  color: var(--white);
+  span {
+    color: var(--white);
 
-  position: absolute;
+    position: absolute;
 
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 
-.frameworks span:hover {
-  color: var(--lime-400);
-  font-weight: 700;
-}
+  &:hover {
+    color: var(--lime-400);
+    font-weight: 700;
+  }
 
-.frameworks article {
-  position: absolute;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  background: white;
-  box-shadow: 0px 3px 16px #523680;
-  cursor: pointer;
-}
+  article {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0px 3px 16px #523680;
+    cursor: pointer;
+  }
 
-.frameworks .card {
-  position: absolute;
-  visibility: hidden;
+  .card {
+    position: absolute;
+    visibility: hidden;
 
-  width: 352px;
+    width: 352px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 
-  color: #555;
+    color: #555;
 
-  background: #fff;
-  border-radius: 8px;
+    background: #fff;
+    border-radius: 8px;
 
-  padding: 1rem;
+    padding: 1rem;
+  }
 }
 
 .frameworks .next {
   left: 196px;
   top: 16px;
-}
 
-.frameworks .next span {
-  left: -66px;
-  bottom: -4px;
-}
+  span {
+    left: -66px;
+    bottom: -4px;
+  }
 
-.frameworks .next .card {
-  top: -136px;
-  left: -2px;
+  .card {
+    top: -136px;
+    left: -2px;
+  }
 }
 
 .frameworks .symfony {
   left: 394px;
   top: 16px;
-}
 
-.frameworks .symfony span {
-  right: -82px;
-  bottom: -3px;
-}
+  span {
+    right: -82px;
+    bottom: -3px;
+  }
 
-.frameworks .symfony .card {
-  top: -155px;
-  right: -310px;
+  .card {
+    top: -155px;
+    right: -280px;
+  }
 }
 
 .frameworks .nest {
   left: 70px;
   top: 209px;
-}
 
-.frameworks .nest .card {
-  top: -155px;
-  left: 3px;
-}
+  span {
+    right: 28px;
+    bottom: -3px;
+  }
 
-.frameworks .nest span {
-  right: 28px;
-  bottom: -3px;
+  .card {
+    top: -155px;
+    left: 3px;
+  }
 }
 
 .frameworks .javascript {
   left: 510px;
   top: 219px;
-}
 
-.frameworks .javascript span {
-  right: -96px;
-  bottom: -3px;
-}
+  span {
+    right: -96px;
+    bottom: -3px;
+  }
 
-.frameworks .javascript .card {
-  top: -159px;
-  right: -4px;
+  .card {
+    top: -159px;
+    right: -4px;
+  }
 }
 
 .frameworks .flutter {
   left: 201px;
   top: 410px;
-}
 
-.frameworks .flutter span {
-  left: -66px;
-  bottom: -3px;
-}
+  span {
+    left: -66px;
+    bottom: -3px;
+  }
 
-.frameworks .flutter .card {
-  left: -4px;
-  bottom: 24px;
+  .card {
+    left: -4px;
+    bottom: 24px;
+  }
 }
 
 .frameworks .bootstrap {
   left: 398px;
   top: 405px;
-}
 
-.frameworks .bootstrap span {
-  right: -106px;
-  bottom: -3px;
-}
+  span {
+    right: -106px;
+    bottom: -3px;
+  }
 
-.frameworks .bootstrap .card {
-  right: -300px;
-  bottom: 20px;
+  .card {
+    right: -280px;
+    bottom: 20px;
+  }
 }
 
 .frameworks .next:hover .card,
@@ -251,6 +253,7 @@
     align-items: center;
     justify-content: center;
     gap: 5rem;
+    margin-bottom: 3rem;
   }
 
   .card {

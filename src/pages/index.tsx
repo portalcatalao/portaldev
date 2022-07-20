@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import Banner from "../components/Banner";
+import Cases from "../components/Cases";
 import Company from "../components/Company";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -19,11 +20,10 @@ export default function Home() {
         <Banner />
         <Company />
         <Partners />
-        {/* <Cases /> */}
+        <Cases />
         <Technologies />
         <Testimonials />
         <Contact />
-        <Footer />
       </main>
     </>
   );

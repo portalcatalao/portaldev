@@ -5,8 +5,8 @@ export default function Technologies() {
   return (
     <section className={styles.technologies} id="technologies">
       <div className={styles.card}>
-        <p className={styles.cardHeader}>Tecnologias</p>
-        <p className={styles.cardBody}>
+        <span>Tecnologias</span>
+        <p>
           Para nós, cada site é único. Em vista disso, buscamos sempre novidades
           e software arquitetados para oferecer a melhor solução para a sua
           necessidade. Percorrendo pelo briefing, prototipação, estrutura de
@@ -24,10 +24,10 @@ export default function Technologies() {
           </div>
         </div>
         <div className={styles.cardFooter}>
-          <img className={styles.tools} src="/images/tools/github.svg" alt="" />
-          <img className={styles.tools} src="/images/tools/figma.svg" alt="" />
-          <img className={styles.tools} src="/images/tools/adobe.svg" alt="" />
-          <img className={styles.tools} src="/images/tools/notion.svg" alt="" />
+          <img src="/images/tools/github.svg" alt="" />
+          <img src="/images/tools/figma.svg" alt="" />
+          <img src="/images/tools/adobe-xd.svg" alt="" />
+          <img src="/images/tools/notion.svg" alt="" />
         </div>
       </div>
       <div className={styles.frameworks}>

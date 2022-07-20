@@ -1,10 +1,12 @@
 .container {
   background: var(--white);
   padding-bottom: 6.5rem;
+
   section {
     display: flex;
     flex-direction: column;
   }
+
   svg {
     display: block;
   }
@@ -16,6 +18,10 @@
   justify-content: space-between;
 
   gap: 2.5rem;
+
+  img {
+    width: 36rem;
+  }
 }
 
 .header {
@@ -54,17 +60,13 @@
   align-items: center;
   gap: 0.5rem;
   color: var(--pink-400);
-}
 
-.item p {
-  color: var(--gray-700);
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 2.5rem;
-}
-
-.historyCompany img {
-  width: 36rem;
+  p {
+    color: var(--gray-700);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -80,10 +82,10 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-  }
 
-  .historyCompany img {
-    width: 19rem;
+    img {
+      width: 19rem;
+    }
   }
 
   .item {

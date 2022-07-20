@@ -3,7 +3,7 @@ import styles from "../Partners/styles.module.scss";
 export default function Partners() {
   return (
     <section className="partners">
-      <article>
+      <article className={styles.partnerContainer}>
         <p className={styles.header}>Empresas que confiam no nosso trabalho</p>
         <div className={styles.partners}>
           <img src="/images/partners/transduarte.png" alt="" />

@@ -16,18 +16,13 @@ export default function Company() {
         <div className={styles.historyCompany}>
           <div className={styles.card}>
             <p className={styles.cardBody}>
-              <p>
-                {" "}
-                Atuamos no mercado de tecnologia da informação há mais de 20
-                anos. Nosso time é especializado em criar sites, lojas virtuais,
-                landing pages, blog, portais e aplicativos.
-              </p>
-              <p>
-                Com foco em oferecer a melhor experiência de navegação aos seus
-                usuários. Analisamos seu público-alvo e elaboramos estratégias
-                para sua empresa se destacar na web e ser encontrada de forma
-                rápida!
-              </p>
+              Atuamos no mercado de tecnologia da informação há mais de 20 anos.
+              Nosso time é especializado em criar sites, lojas virtuais, landing
+              pages, blog, portais e aplicativos. <br />
+              Com foco em oferecer a melhor experiência de navegação aos seus
+              usuários. Analisamos seu público-alvo e elaboramos estratégias
+              para sua empresa se destacar na web e ser encontrada de forma
+              rápida!
             </p>
             <div className={styles.cardFooter}>
               <div className={styles.item}>

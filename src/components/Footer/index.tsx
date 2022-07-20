@@ -13,13 +13,13 @@ export default function Footer() {
         <article className={styles.productsCompany}>
           <div className={styles.product}>
             <p>Instituição</p>
-            <a href="#">Sobre nós</a>
-            <a href="#">Política de Privacidade</a>
-            <a href="#">Termos de uso</a>
+
+            <a href="/privacy">Política de Privacidade</a>
+            <a href="/terms">Termos de uso</a>
           </div>
           <div className={styles.product}>
             <p>Produtos</p>
-            <a href="#">PortalDev</a>
+            <a href="/">PortalDev</a>
             <a href="https://www.portalcatalao.com.br/" target="_blank">
               Portal Catalão
             </a>

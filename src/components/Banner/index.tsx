@@ -9,12 +9,10 @@ export default function Banner() {
             Transforme suas incríveis ideias em realidade
           </p>
           <p className={styles.cardBody}>
-            <p>Fazemos o site que você precisa! </p>
-            <p>
-              Criamos para o seu negócio um site funcional e que gera
-              resultados. Da ideia ao produto final, fazemos o seu produto
-              digital guiado nas suas necessidades.
-            </p>
+            Fazemos o site que você precisa! <br />
+            Criamos para o seu negócio um site funcional e que gera resultados.
+            Da ideia ao produto final, fazemos o seu produto digital guiado nas
+            suas necessidades.
           </p>
           <footer>
             <button type="submit">Faça seu orçamento</button>
