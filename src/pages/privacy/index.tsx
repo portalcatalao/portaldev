@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import styles from "../Privacy/styles.module.scss";
+import styles from "./styles.module.scss";
 
 export default function Privacy() {
   return (
