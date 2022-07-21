@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../Footer/styles.module.scss";
 
 export default function Footer() {
@@ -14,27 +15,35 @@ export default function Footer() {
           <div className={styles.product}>
             <p>Instituição</p>
 
-            <a href="/privacy">Política de Privacidade</a>
-            <a href="/terms">Termos de uso</a>
+            <Link href="/privacy">
+              <a >Política de Privacidade</a>
+            </Link>
+            <Link href="/terms">
+              <a >Termos de uso</a>
+            </Link>
           </div>
           <div className={styles.product}>
             <p>Produtos</p>
-            <a href="/">PortalDev</a>
-            <a href="https://www.portalcatalao.com.br/" target="_blank">
+            <Link href="/">
+            <a >PortalDev</a>
+            </Link>
+            <a href="https://www.portalcatalao.com.br/" target="_blank" rel="noreferrer">
               Portal Catalão
             </a>
-            <a href="https://guiacatalao.com.br/" target="_blank">
+            <a href="https://guiacatalao.com.br/" target="_blank" rel="noreferrer">
               Guia Catalão
             </a>
             <a
               href="https://www.portalcatalao.com.br/portal/classificados/"
               target="_blank"
+              rel="noreferrer"
             >
               Classificados
             </a>
             <a
               href="https://portalcatalao.com.br/portal/classificados/anuncios-imoveis,AN,MTI.rb"
               target="_blank"
+              rel="noreferrer"
             >
               Imóveis
             </a>
@@ -45,12 +54,14 @@ export default function Footer() {
             <a
               href="https://api.whatsapp.com/send?phone=556499564405&text=Oi"
               target="_blank"
+              rel="noreferrer"
             >
               Whatsapp
             </a>
             <a
               href="https://www.google.com/maps/dir/-18.1717608,-47.9513065/portal+catalao/@-18.1677872,-47.9518959,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94a6666c4ca09061:0x988eafae945d0f96!2m2!1d-47.9458238!2d-18.1658107"
               target="_blank"
+              rel="noreferrer"
             >
               Endereço
             </a>
@@ -78,6 +89,7 @@ export default function Footer() {
                 <a
                   href="https://www.linkedin.com/company/portal-catalao-internet-service/mycompany/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src="/images/media/linkedin.svg" alt="" />
                 </a>
@@ -86,6 +98,7 @@ export default function Footer() {
                 <a
                   href="https://www.instagram.com/portalcatalao/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src="/images/media/instagram.svg" alt="" />
                 </a>
@@ -94,12 +107,13 @@ export default function Footer() {
                 <a
                   href="https://www.facebook.com/portalcatalao"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src="/images/media/facebook.svg" alt="" />
                 </a>
               </div>
               <div className={styles.itemMedia}>
-                <a href="https://twitter.com/portalcatalao" target="_blank">
+                <a href="https://twitter.com/portalcatalao" target="_blank" rel="noreferrer">
                   <img src="/images/media/twitter.svg" alt="" />
                 </a>
               </div>

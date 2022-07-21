@@ -60,11 +60,11 @@ export default function Testimonials() {
               <div className={styles.testimonials}>
                 <article>
                   <p>
-                    "Estou com Portal Catalão tem 15 anos. O meu site é um dos
+                    &quot;Estou com Portal Catalão tem 15 anos. O meu site é um dos
                     mais acessados na região. E, isso foi proporcionado pela
                     dinâmica de serviço e visibilidade do que foi produzido para
                     o meu site. A equipe do Portal Catalão apenas gratidão, pois
-                    tenho resultados concretos"
+                    tenho resultados concretos&quot;
                   </p>
                   <span>
                     Luiz Cláudio
@@ -77,9 +77,9 @@ export default function Testimonials() {
               <div className={styles.testimonials}>
                 <article>
                   <p>
-                    "Tive um sie desenvolvido pelo Portal Catalão e me deu
+                    &quot;Tive um sie desenvolvido pelo Portal Catalão e me deu
                     bastante retorno, pois não tinha presença digital. Então, me
-                    ajudou a criar novas possibilidades de negócios".
+                    ajudou a criar novas possibilidades de negócios&quot;.
                   </p>
                   <span>
                     Camila Guimarães
@@ -92,12 +92,12 @@ export default function Testimonials() {
               <div className={styles.testimonials}>
                 <article>
                   <p>
-                    "Acreditar e ir em frente com um negócio não é fácil. E,
+                    &quot;Acreditar e ir em frente com um negócio não é fácil. E,
                     todas as pessoas pesquisam se realmente você está na
                     internet. A minha porta de entrada para o mundo digital veio
                     por meio do Portal Catalão, que me ajudou a construir minha
                     presença digital com meu site onde faço captura de Leads
-                    para venda de veículos".
+                    para venda de veículos&quot;.
                   </p>
                   <span>
                     Jaime Junior
@@ -111,11 +111,11 @@ export default function Testimonials() {
               <div className={styles.testimonials}>
                 <article>
                   <p>
-                    "A minha presença digital era muito fraca e precisei
+                    &quot;A minha presença digital era muito fraca e precisei
                     reformular o meu site do 0 mesmo. Pois, não tinha condições
                     de vender nada ou me apresentar para ninguém com o que
                     tinha. O Portal Catalão abriu muitas portas para o meu
-                    negócio com o novo site. Só tenho a agradecer".
+                    negócio com o novo site. Só tenho a agradecer&quot;.
                   </p>
                   <span>
                     Renato Nogueira
@@ -129,12 +129,12 @@ export default function Testimonials() {
               <div className={styles.testimonials}>
                 <article>
                   <p>
-                    "Responsável pelo desenvolvimento e manutenção do site da
+                    &quot;Responsável pelo desenvolvimento e manutenção do site da
                     Revista Portal VIP, a equipe Portal Catalão é séria,
                     comprometida, criativa e eficiente. O Portal Catalão
                     representa a oportunidade de extrapolar os limites de
                     Catalão e da região Sudeste, possibilitando levar a Revista
-                    Portal VIP para o Brasil e o mundo".
+                    Portal VIP para o Brasil e o mundo&quot;.
                   </p>
                   <span>
                     Iliane Fonseca
