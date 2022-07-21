@@ -5,13 +5,12 @@ import { useRef } from "react";
 import { useRouter } from "next/router";
 
 export default function Header() {
-  const navRef = useRef();
+  const navRef = useRef(null);
 
   const showNavBar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
 
-  const router = useRouter();
   return (
     <header className={styles.headerContainer}>
       <Link href="/">
@@ -26,7 +25,7 @@ export default function Header() {
           <a>Nossos cases</a>
         </Link>
 
-        <Link href="#technologies" onClick={showNavBar}>
+        <Link href="#technologies">
           <a>Tecnologias</a>
         </Link>
 
